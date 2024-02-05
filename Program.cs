@@ -35,7 +35,7 @@
         
     Console.WriteLine("Введите трёхзначное число");
     int n = Convert.ToInt32(Console.ReadLine());
-c
+
     if (n > 99  && n < 1000) 
     {
         int left = n / 100;
@@ -46,3 +46,6 @@ c
     {
         System.Console.Write("Wrong number"); 
     }
+
+
+
